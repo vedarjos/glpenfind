@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Cache-Control" content="no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#a7d4e4">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="GLPenFind">
+<title>Weight-management prices, read from the pharmacies themselves</title>
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" href="icon-192.png">
+<link rel="stylesheet" href="styles.css?v=22">
+</head>
+<body>
+<div class="app">
+
+  <header class="hero">
+    <div class="hero-top">
+      <span class="live"><span class="pulse"></span> Live UK price index</span>
+      <a class="ghost-btn" href="/prices.html">Price list →</a>
+    </div>
+
+    <h1>What private<br><span>weight care</span> costs</h1>
+    <p class="lede">Every UK pharmacy that publishes a price for a private weight-management consultation, in one list — ranked by how much they ask of you before a prescriber decides, not by whoever shouts loudest.</p>
+
+    <div class="hero-stats">
+      <div class="stat"><strong id="home-pharmacies">—</strong><span>pharmacies</span></div>
+      <div class="stat"><strong id="home-verified">—</strong><span>GPhC-verified</span></div>
+      <div class="stat"><strong id="home-doses">—</strong><span>doses compared</span></div>
+    </div>
+
+    <a class="visit home-cta" href="/prices.html">See the price list</a>
+  </header>
+
+  <section class="lowest">
+    <div class="section-head"><h2>What this is</h2></div>
+    <div class="lowest-grid stack">
+      <div class="low-card tall"><span class="low-dose">Registered only</span>
+        <span class="low-pharm">Every pharmacy is checked against the General Pharmaceutical Council register of premises. Anything we cannot confirm is left out, not listed with a warning.</span></div>
+      <div class="low-card tall"><span class="low-dose">Read, not scraped from a rival</span>
+        <span class="low-pharm">Prices come from each pharmacy's own page, with the URL and the date kept, so any line can be traced back to its source.</span></div>
+      <div class="low-card tall"><span class="low-dose">Hassle, counted</span>
+        <span class="low-pharm">Questionnaire, photos, video call, ID, GP records — what a pharmacy says it needs, scored, so the shortest path is visible.</span></div>
+      <div class="low-card tall"><span class="low-dose">No product claims</span>
+        <span class="low-pharm">We compare price and process. We do not say which medicine is right for you: that is a conversation with a prescriber.</span></div>
+    </div>
+  </section>
+
+  <section class="results">
+    <div class="section-head"><h2>Before you compare prices</h2></div>
+    <p class="sort-note evidence-note">A treatment you would prefer will not be prescribed if it is not suitable for you. Decisions about treatment are made with a prescriber during a consultation, and are never based on price alone. Prescription-only medicines cannot be advertised to the public in the UK, which is why this page describes the service and the process rather than promoting a medicine.</p>
+    <p class="sort-note evidence-note">Nothing here is medical advice, and no pharmacy pays to appear. Prices change without warning; the pharmacy's own checkout is the final word.</p>
+  </section>
+
+  <footer class="foot">
+    <h3>Where the numbers come from</h3>
+    <p class="fine">Read from each pharmacy's own pages by our crawler, with the timestamp stored against every line. Registration is checked against the GPhC register of pharmacy premises.</p>
+    <p class="fine"><a href="/privacy.html">Privacy</a> · <a href="/site/">About the app</a> · Price and process information only, not medical advice. A prescriber decides who qualifies for treatment.</p>
+  </footer>
+</div>
+
+<script>
+  // counts only — deliberately no prices, and no medicine name, on the home page
+  Promise.all([
+    fetch('data/price-index.json', { cache: 'no-store' }).then((r) => r.json()).catch(() => ({})),
+    fetch('data/gphc.json', { cache: 'no-store' }).then((r) => r.json()).catch(() => ({}))
+  ]).then(([idx, gphc]) => {
+    const listed = (idx.providers || []).filter((p) => Object.keys(p.prices_gbp || {}).length);
+    const doses = new Set();
+    listed.forEach((p) => Object.keys(p.prices_gbp || {}).forEach((k) => doses.add(k)));
+    const reg = gphc.providers || {};
+    const set = (id, v) => { const el = document.getElementById(id); if (el) el.textContent = v; };
+    set('home-pharmacies', listed.length);
+    set('home-doses', doses.size);
+    set('home-verified', listed.filter((p) => reg[p.provider] && reg[p.provider].verified).length);
+  });
+</script>
+</body>
+</html>

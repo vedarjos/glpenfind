@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GLPenFind — monetisation options, pros and cons</title>
+<style>
+  :root{
+    --field:#A7D4E4; --ink:#71502F; --ink-soft:#5C452B; --oxblood:#82241F;
+    --apricot:#FDC57E; --sage:#8FA071; --plate:#FFF8E6;
+    --rule:rgba(113,80,47,.26);
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;background:#e9e2d2;color:var(--ink);
+    font:11px/1.38 "Avenir Next",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+    -webkit-font-smoothing:antialiased}
+  .sheet{width:210mm;height:297mm;margin:14px auto;background:var(--plate);
+    padding:9mm 9mm 7mm;box-shadow:0 12px 34px rgba(113,80,47,.22);
+    display:flex;flex-direction:column;overflow:hidden}
+
+  header{display:flex;align-items:flex-start;justify-content:space-between;gap:8mm;
+    border-bottom:2px solid var(--oxblood);padding-bottom:3mm;margin-bottom:3.5mm}
+  h1{margin:0;font-size:16px;line-height:1.1;letter-spacing:-.2px;font-weight:500}
+  h1 b{color:var(--oxblood);font-weight:700}
+  .sub{margin:1.6mm 0 0;font-size:9.5px;color:var(--ink-soft);max-width:150mm}
+  .stamp{flex:0 0 auto;text-align:right;font-size:7.6px;letter-spacing:.13em;
+    text-transform:uppercase;color:var(--ink-soft);line-height:1.5}
+  .stamp b{display:block;font-size:9px;letter-spacing:.09em;color:var(--oxblood)}
+  .stamp i{display:block;width:22mm;height:2.5px;background:var(--field);margin:1.6mm 0 0 auto;border-radius:2px}
+
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2.6mm;align-content:start}
+  .opt{background:#fff;border:1px solid var(--rule);border-radius:6px;padding:2.4mm 2.6mm 2mm;
+    display:flex;flex-direction:column;min-height:0}
+  .opt.go{border-color:rgba(143,160,113,.85);box-shadow:inset 0 0 0 1px rgba(143,160,113,.25)}
+  .opt.no{background:#fbf2ec;border-style:dashed}
+  .opt:last-child{grid-column:1/-1}
+  .opt:last-child .pc{grid-template-columns:1fr 1fr;gap:6mm}
+
+  .top{display:flex;gap:1.6mm;align-items:baseline}
+  .num{font-size:7px;font-weight:700;color:var(--oxblood);letter-spacing:.06em;padding-top:.4mm}
+  h2{margin:0;font-size:9.6px;line-height:1.22;letter-spacing:-.05px}
+  .what{margin:1mm 0 1.4mm;font-size:8.4px;line-height:1.34;color:var(--ink-soft)}
+
+  .pc{display:grid;grid-template-columns:1fr 1fr;gap:1.8mm;margin-top:auto}
+  .pc h3{margin:0 0 .7mm;font-size:6.6px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft)}
+  .pc ul{margin:0;padding-left:2.8mm}
+  .pc li{font-size:8.2px;line-height:1.3;margin-bottom:.55mm}
+  .pros li::marker{color:var(--sage)}
+  .cons li::marker{color:var(--oxblood)}
+
+  .money{margin-top:1.6mm;padding-top:1.4mm;border-top:1px solid var(--rule);
+    display:flex;align-items:center;justify-content:space-between;gap:1.4mm}
+  .money span:first-child{font-size:8px;line-height:1.25}
+  .money b{font-weight:700}
+  .chip{font-size:6.4px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;
+    padding:.8mm 1.6mm;border-radius:20px;white-space:nowrap}
+  .chip.go{background:var(--sage);color:#1f2c1c}
+  .chip.maybe{background:var(--apricot);color:#4a2c17}
+  .chip.no{background:var(--oxblood);color:var(--plate)}
+  .chip.meh{background:var(--field);color:#33474e}
+
+  .firewall{margin-top:2.6mm;background:var(--field);border-radius:6px;padding:2.4mm 3mm}
+  .firewall h2{font-size:9.2px;margin:0 0 1.2mm}
+  .rules{display:grid;grid-template-columns:1fr 1fr;gap:1mm 4mm;margin:0;padding-left:3.6mm}
+  .rules li{font-size:8.2px;line-height:1.3}
+
+  footer{margin-top:auto;padding-top:2mm;border-top:1px solid var(--rule);
+    display:flex;justify-content:space-between;gap:6mm;font-size:7.2px;color:var(--ink-soft)}
+
+  @media print{
+    html,body{background:#fff}
+    .sheet{width:auto;height:auto;min-height:0;margin:0;box-shadow:none;padding:8mm}
+    @page{size:A4 portrait;margin:0}
+  }
+</style>
+</head>
+<body>
+<div class="sheet">
+
+  <header>
+    <div>
+      <h1><b>GLP</b>enFind — thirteen ways this could earn, and what each one costs you</h1>
+      <p class="sub">Net of 20% VAT and Apple’s 15% Small Business rate where a store sale is involved. Customer counts are
+      the thresholds at which each idea pays, not forecasts. Green border means worth doing; dashed red means don’t.</p>
+    </div>
+    <div class="stamp"><b>One page</b>November 2026<i></i></div>
+  </header>
+
+  <div class="grid">
+
+    <article class="opt go">
+      <div class="top"><span class="num">01</span><h2>Quarterly report sold to the industry</h2></div>
+      <p class="what">Price by dose, spread, movers, ordering-friction trend — sold to clinics, wholesalers, researchers.</p>
+      <div class="pc">
+        <div class="pros"><h3>Pros</h3><ul><li>Best value per hour — no new code</li><li>Ten buyers is a viable business</li><li>Journalists cite you free</li></ul></div>
+        <div class="cons"><h3>Cons</h3><ul><li>You must invoice and support</li><li>Stale data kills it fast</li><li>Maybe 30 UK buyers, total</li></ul></div>
+      </div>
+      <div class="money"><span>£450 a copy · <b>10 = £4,500/yr</b></span><span class="chip go">Do this</span></div>
+    </article>
+
+    <article class="opt go">
+      <div class="top"><span class="num">02</span><h2>Licence the live data as an API</h2></div>
+      <p class="what">£150/month per key for current prices and Ease scores, for clinics and comparison sites.</p>
+      <div class="pc">
+        <div class="pros"><h3>Pros</h3><ul><li>Two clients = £3,600/yr</li><li>Recurring, runs itself</li><li>No extra crawling</li></ul></div>
+        <div class="cons"><h3>Cons</h3><ul><li>Keys, limits, docs, uptime</li><li>Breaks when a site changes</li><li>You become a support desk</li></ul></div>
+      </div>
+      <div class="money"><span>£150/mo · <b>5 = £9,000/yr</b></span><span class="chip go">Do this</span></div>
+    </article>
+
+    <article class="opt">
+      <div class="top"><span class="num">03</span><h2>Pharmacies claim their profile</h2></div>
+      <p class="what">£25/month for logo, hours, delivery terms and a correction route — cosmetics only.</p>
+      <div class="pc">
+        <div class="pros"><h3>Pros</h3><ul><li>10 of 68 = £3,000/yr</li><li>They fix our errors</li><li>Direct supplier contact</li></ul></div>
+        <div class="cons"><h3>Cons</h3><ul><li>Looks like paid placement</li><li>One angry pharmacy is a story</li><li>Invoicing for small sums</li></ul></div>
+      </div>
+      <div class="money"><span>£25/mo · <b>10 = £3,000/yr</b></span><span class="chip maybe">Firewall first</span></div>
+    </article>
+
+    <article class="opt go">
+      <div class="top"><span class="num">04</span><h2>Free app, £2.99 Pro unlock</h2></div>
+      <p class="what">Alerts, widget, reorder reminders, price history — things a web page cannot do.</p>
+      <div class="pc">
+        <div class="pros"><h3>Pros</h3><ul><li>£2.12 net, no renewals</li><li>Free download grows ranking</li><li>Native work answers rule 4.2</li></ul></div>
+        <div class="cons"><h3>Cons</h3><ul><li>Native features must exist first</li><li>Few pay for a price list</li><li>Apple takes 15%</li></ul></div>
+      </div>
+      <div class="money"><span>£2.99 · <b>1,400 = £2,968</b></span><span class="chip go">Best app model</span></div>
+    </article>
+
+    <article class="opt">
+      <div class="top"><span class="num">05</span><h2>Web membership, £3/month</h2></div>
+      <p class="what">Alerts, history, watchlist, CSV export — billed by Stripe, no Apple cut.</p>
+      <div class="pc">
+        <div class="pros"><h3>Pros</h3><ul><li>100 members = £3,420/yr</li><li>No 15% to Apple</li><li>Recurring if it sticks</li></ul></div>
+        <div class="cons"><h3>Cons</h3><ul><li>Accounts, billing, support</li><li>300 members is a lot alone</li><li>Must not unlock the app</li></ul></div>
+      </div>
+      <div class="money"><span>£3/mo · <b>300 = £10,260/yr</b></span><span class="chip meh">Later</span></div>
+    </article>
+
+    <article class="opt no">
+      <div class="top"><span class="num">06</span><h2>£0.99 paid app, up front</h2></div>
+      <p class="what">Pay before download, everything included.</p>
+      <div class="pc">
+        <div class="pros"><h3>Pros</h3><ul><li>No billing code needed</li><li>Filters tyre-kickers</li><li>One decision, done</li></ul></div>
+        <div class="cons"><h3>Cons</h3><ul><li>£0.70 net — needs volume</li><li>Most won’t pay blind</li><li>Fewer users, worse ranking</li><li>Paid wrapper risks 4.2</li></ul></div>
+      </div>
+      <div class="money"><span>5,000 = £3,506 · break-even 113</span><span class="chip no">Weakest</span></div>
+    </article>
+
+    <article class="opt no">
+      <div class="top"><span class="num">07</span><h2>£1.99/year subscription</h2></div>
+      <p class="what">Annual fee for the app and its alerts.</p>
+      <div class="pc">
+        <div class="pros"><h3>Pros</h3><ul><li>£1.41/yr each, repeating</li><li>Reframes it as a service</li></ul></div>
+        <div class="cons"><h3>Cons</h3><ul><li>Churn on a £2 product is brutal</li><li>“Why pay for public prices?”</li><li>Contradicts anti-hassle pitch</li></ul></div>
+      </div>
+      <div class="money"><span>56 subs covers Apple’s fee</span><span class="chip meh">Meh</span></div>
+    </article>
+
+    <article class="opt go">
+      <div class="top"><span class="num">08</span><h2>Reader donations</h2></div>
+      <p class="what">“This saved me £40 a month” plus a tip jar.</p>
+      <div class="pc">
+        <div class="pros"><h3>Pros</h3><ul><li>Ten minutes to set up</li><li>Signals independence</li><li>80 = £3,840/yr</li></ul></div>
+        <div class="cons"><h3>Cons</h3><ul><li>Unpredictable</li><li>Needs an audience first</li><li>Feels like asking</li></ul></div>
+      </div>
+      <div class="money"><span>£4/mo · <b>80 = £3,840/yr</b></span><span class="chip go">Easy, low risk</span></div>
+    </article>
+
+    <article class="opt">
+      <div class="top"><span class="num">09</span><h2>Licence an embedded price box</h2></div>
+      <p class="what">“Cheapest 15mg today — £220” for forums and clinic sites.</p>
+      <div class="pc">
+        <div class="pros"><h3>Pros</h3><ul><li>£20–50/mo a site, pure margin</li><li>Every embed advertises you</li><li>Reaches people off-site</li></ul></div>
+        <div class="cons"><h3>Cons</h3><ul><li>Needs an endpoint and cache</li><li>Easy to block or ignore</li><li>Few willing hosts</li></ul></div>
+      </div>
+      <div class="money"><span>£20–50/mo per site</span><span class="chip meh">Later</span></div>
+    </article>
+
+    <article class="opt no">
+      <div class="top"><span class="num">10</span><h2>Display advertising</h2></div>
+      <p class="what">Banner networks on the price list.</p>
+      <div class="pc">
+        <div class="pros"><h3>Pros</h3><ul><li>Trivial to add</li><li>Pays without selling</li></ul></div>
+        <div class="cons"><h3>Cons</h3><ul><li>~£50/mo at this traffic</li><li>Undoes the clean look</li><li>Health ad networks = privacy risk</li></ul></div>
+      </div>
+      <div class="money"><span>Pennies per thousand views</span><span class="chip no">Avoid</span></div>
+    </article>
+
+    <article class="opt no">
+      <div class="top"><span class="num">11</span><h2>Paid placement or a “featured” slot</h2></div>
+      <p class="what">A pharmacy buys the top of the list.</p>
+      <div class="pc">
+        <div class="pros"><h3>Pros</h3><ul><li>Would earn the most, fastest</li></ul></div>
+        <div class="cons"><h3>Cons</h3><ul><li>Ends the whole premise</li><li>Ease score becomes meaningless</li><li>MHRA risk over POM inducements</li><li>Unrecoverable</li></ul></div>
+      </div>
+      <div class="money"><span>Never, at any price</span><span class="chip no">Never</span></div>
+    </article>
+
+    <article class="opt no">
+      <div class="top"><span class="num">12</span><h2>Sell access to the list</h2></div>
+      <p class="what">Put the index behind the app or a login.</p>
+      <div class="pc">
+        <div class="pros"><h3>Pros</h3><ul><li>Forces a purchase from visitors</li></ul></div>
+        <div class="cons"><h3>Cons</h3><ul><li>Kills the search traffic</li><li>Charges for what Monj gives free</li><li>The advert loses its audience</li></ul></div>
+      </div>
+      <div class="money"><span>Trades the asset for a receipt</span><span class="chip no">No</span></div>
+    </article>
+
+    <article class="opt no">
+      <div class="top"><span class="num">13</span><h2>Affiliate links to pharmacies</h2></div>
+      <p class="what">Commission per referral — already excluded by the project’s rules.</p>
+      <div class="pc">
+        <div class="pros"><h3>Pros</h3><ul><li>Standard for comparison sites</li><li>Costs the reader nothing</li></ul></div>
+        <div class="cons"><h3>Cons</h3><ul><li>Incentive to rank payers higher</li><li>Readers cannot audit it</li><li>Contradicts stated independence</li></ul></div>
+      </div>
+      <div class="money"><span>Excluded by design</span><span class="chip no">No</span></div>
+    </article>
+
+  </div>
+
+  <section class="firewall">
+    <h2>If any pharmacy ever pays, these four rules go public first</h2>
+    <ol class="rules">
+      <li>Ranking is a pure function — scraped price and counted steps. No manual overrides, ever.</li>
+      <li>A public “who pays us” page, updated the day an invoice is raised.</li>
+      <li>Payment buys cosmetics only: logo, hours, a link — never position, price or Ease.</li>
+      <li>Nothing paid appears in the app’s ranking either. One rule, both surfaces.</li>
+    </ol>
+  </section>
+
+  <footer>
+    <span>Thresholds are illustrative, not forecasts. Net figures assume 20% VAT and Apple’s 15% Small Business rate.</span>
+    <span>GLPenFind · one page · 2026</span>
+  </footer>
+
+</div>
+</body>
+</html>

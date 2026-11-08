@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">GLPenFind</string>
+    <string name="title_activity_main">GLPenFind</string>
+    <string name="package_name">uk.whimsical.glpenfind</string>
+    <string name="custom_url_scheme">uk.whimsical.glpenfind</string>
+</resources>

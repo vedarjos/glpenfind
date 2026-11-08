@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Cache-Control" content="no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#a7d4e4">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Price Index">
+<title>Price list — registered pharmacies</title>
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" href="icon-192.png">
+<link rel="stylesheet" href="styles.css?v=22">
+</head>
+<body>
+<div class="app">
+
+  <header class="hero">
+    <div class="hero-top">
+      <span class="live"><span class="pulse"></span> Live UK price index</span>
+      <a class="ghost-btn" href="/index.html">← Back</a>
+    </div>
+
+    <h1>Price<br><span>list</span></h1>
+    <p class="lede">What registered UK pharmacies publish for a private weight-management consultation, per pen. Factual figures, linked to the page each one came from.</p>
+
+    <div class="hero-stats">
+      <div class="stat"><strong id="stat-pharmacies">—</strong><span id="stat-pharmacies-label">pharmacies</span></div>
+      <div class="stat"><strong id="stat-doses">—</strong><span>doses covered</span></div>
+      <div class="stat"><strong id="stat-gphc">—</strong><span>GPhC-verified</span></div>
+    </div>
+    <p class="checked" id="checked-line">Loading…</p>
+  </header>
+
+  <p class="sort-note evidence-note">This is a price list, not a recommendation. A treatment you prefer will not be prescribed if it is not suitable for you — the decision is made with a prescriber during a consultation, and never on price alone.</p>
+
+  <section class="doses" id="dose-bar" aria-label="Choose dose"></section>
+
+  <section class="results">
+    <div class="section-head">
+      <h2 id="list-title">Pharmacies, by what they ask of you</h2>
+    </div>
+    <div class="segmented" role="tablist" id="sort-bar">
+      <button class="seg active" data-sort="ease" role="tab">Ease</button>
+      <button class="seg" data-sort="price" role="tab">Price</button>
+      <button class="seg" data-sort="rating" role="tab">Rating</button>
+    </div>
+    <p class="sort-note" id="sort-note">Least hassle first, from what each pharmacy admits it asks for.</p>
+    <p class="sort-note" id="coverage-line"></p>
+    <p class="sort-note evidence-note">Ease counts only what a pharmacy admits to. Hide your checks behind a consultation and you score well here by default — so read it as a floor, not a rating.</p>
+    <button class="toggle" id="unread-toggle" type="button" aria-pressed="false">
+      <span class="toggle-label">Show the ones that won’t tell you a price</span>
+      <span class="toggle-count" id="unread-count">0</span>
+    </button>
+    <div id="list" class="list"></div>
+  </section>
+
+  <footer class="foot">
+    <h3>Where the numbers come from</h3>
+    <p id="method-line"></p>
+    <p class="fine"><a href="/privacy.html">Privacy</a> · <a href="/site/">About the app</a> · Prices are per pen, per month, as the pharmacy displays them, and change without warning — their checkout is the final word. Every pharmacy listed is checked against the General Pharmaceutical Council register of pharmacy premises; the ones that cannot be verified are not shown. This is price and process information, not medical advice.</p>
+    <p class="fine" id="attribution"></p>
+  </footer>
+</div>
+
+<div class="sheet" id="about-sheet" hidden>
+  <div class="sheet-card">
+    <button class="sheet-close" id="sheet-close" type="button">Close</button>
+    <h2>How this list is built</h2>
+    <ul>
+      <li><strong>Registered only</strong> — every pharmacy is checked against the GPhC register of pharmacy premises. A pharmacy we cannot confirm is left out rather than listed with a caveat.</li>
+      <li><strong>Price</strong> — read directly from the pharmacy's own page by our crawler, with the exact URL and timestamp stored. No aggregator's table is copied.</li>
+      <li><strong>Ease</strong> — built from what the pharmacy itself says it will ask of you: questionnaire, photos, video call, ID, GP records, and stated approval time.</li>
+      <li><strong>Rating</strong> — the pharmacy's own customer reviews, carried with the date they were read.</li>
+    </ul>
+    <p class="fine">Where a pharmacy hides prices behind a consultation, we say so instead of guessing.</p>
+  </div>
+</div>
+
+<script src="app.js?v=20"></script>
+</body>
+</html>

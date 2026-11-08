@@ -1,0 +1,22 @@
+node_modules/
+ios/App/Pods/
+ios/App/App/public/
+ios/App/DerivedData/
+ios/**/xcuserdata/
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+.DS_Store
+*.log
+crawl-artifacts/
+.venv-img/
+.venv/
+__pycache__/
+*.pyc
+.cf.log
+
+dist/
+
+# pending `workflow` token scope — add with `git add -f` once granted
+.github/workflows/validate.yml

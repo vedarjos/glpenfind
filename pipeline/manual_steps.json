@@ -1,0 +1,24 @@
+{
+ "_comment": "Ordering steps we confirmed by walking the flow ourselves. These override or extend what a page's marketing copy happens to admit. Every entry needs a source and the date it was seen.",
+ "Lotus Weight Loss": {
+  "steps": [
+   "questionnaire",
+   "photo"
+  ],
+  "note": "assessment is gated by a consent declaration (T&Cs + patient consent form), then a two-screen consultation (Assessment -> Image Upload -> Details); the image upload step accepts files or a camera capture, so a photo is required before the pharmacy will prescribe",
+  "source": "https://www.lotusweightloss.co.uk/pages/assessment",
+  "checked_at": "2026-10-26",
+  "advertised_rating": {
+   "score": 4.7,
+   "count": 1439,
+   "platform": "Yotpo (first-party widget on their own site)",
+   "source": "https://www.lotusweightloss.co.uk/pages/assessment"
+  }
+ },
+ "The Care Pharmacy": {
+  "code": null,
+  "note": "page text reads 'Many pharmacies offer \u00a320\u2013\u00a380 off for new customers' \u2014 a comment about the market, not an offer of theirs; the earlier code extraction misread it as their own",
+  "source": "https://thecarepharmacy.com/mounjaro-price-comparison-uk",
+  "checked_at": "2026-10-26"
+ }
+}
