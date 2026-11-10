@@ -1,0 +1,72 @@
+# F-Droid build metadata — DRAFT, not yet submitted.
+#
+# This file belongs in the fdroiddata repo (https://gitlab.com/fdroid/fdroiddata)
+# at `metadata/uk.whimsical.glpenfind.yml`, submitted as a merge request. It is
+# kept here so the build recipe lives next to the code it builds.
+#
+# Status against the Inclusion Policy:
+#   1. Public source ..... https://github.com/vedarjos/glpenfind (tag v1.0)
+#   2. FOSS licence ...... GPL-3.0-or-later, LICENSE at the repo root
+#   3. Native features ... DONE. Home-screen widget (AppWidgetProvider) reading the
+#      bundled index, plus launcher shortcuts routed into the WebView. This is the
+#      Inclusion Policy §Quality Control 3 / Apple 4.2 answer.
+#
+# Verify the recipe locally before opening the MR:
+#   fdroid lint uk.whimsical.glpenfind
+#   fdroid build -v -l uk.whimsical.glpenfind
+
+Categories:
+  - Sports & Health
+
+License: GPL-3.0-or-later
+AuthorName: Petroula Kostofska
+WebSite: https://vedarjos.github.io/
+SourceCode: https://github.com/vedarjos/glpenfind
+IssueTracker: https://github.com/vedarjos/glpenfind/issues
+
+Summary: UK private weight-care prices from every registered pharmacy
+Description: |-
+  An independent index of what UK pharmacies publish for a private
+  weight-management consultation, per pen, at every dose.
+
+  Every pharmacy is checked against the General Pharmaceutical Council register
+  of pharmacy premises. Each price is read from that pharmacy's own page and kept
+  with its source URL and read date.
+
+  Price is ranked lowest first. Ease is built from what each pharmacy says it will
+  ask of you before a prescriber decides: questionnaire, photos, video call, ID,
+  GP records, and stated turnaround. Where a pharmacy hides its price behind a
+  consultation, the app says so instead of guessing.
+
+  No accounts, no tracking, no advertising, no analytics. The index ships inside
+  the app and works offline.
+
+  Not affiliated with any pharmacy, prescriber or manufacturer. Not medical advice.
+
+RepoType: git
+Repo: https://github.com/vedarjos/glpenfind
+
+Builds:
+  - versionName: '1.1'
+    versionCode: 2
+    commit: v1.1
+    subdir: android
+    sudo:
+      - apt-get update
+      - apt-get install -y nodejs npm
+    prebuild:
+      - npm ci
+      - npx cap sync android
+      # The site ships cache-busted asset URLs (styles.css?v=22). Inside the
+      # WebView a query string on a local asset can 404 and the app renders
+      # blank, so the bundled copy is stripped at build time.
+      - python3 ../pipeline/strip_cachebusters.py
+    gradle:
+      - assembleRelease
+    output: app/build/outputs/apk/release/app-release-unsigned.apk
+    ndk: '27.0.12077973'
+
+AutoUpdateMode: Version
+UpdateCheckMode: Tags
+CurrentVersion: '1.1'
+CurrentVersionCode: 2

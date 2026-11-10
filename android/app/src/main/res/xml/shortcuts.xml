@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutId="prices"
+        android:shortcutLongLabel="@string/shortcut_prices_long"
+        android:shortcutShortLabel="@string/shortcut_prices_short">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="uk.whimsical.glpenfind.MainActivity"
+            android:targetPackage="uk.whimsical.glpenfind">
+            <extra
+                android:name="route"
+                android:value="prices.html" />
+        </intent>
+    </shortcut>
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutId="pharmacies"
+        android:shortcutLongLabel="@string/shortcut_pharmacies_long"
+        android:shortcutShortLabel="@string/shortcut_pharmacies_short">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="uk.whimsical.glpenfind.MainActivity"
+            android:targetPackage="uk.whimsical.glpenfind">
+            <extra
+                android:name="route"
+                android:value="pharmacies.html" />
+        </intent>
+    </shortcut>
+</shortcuts>

@@ -1,0 +1,1 @@
+Home-screen widget: the cheapest published price at the dose you pick, read from the index bundled in the app — no network, no account. Long-press the launcher to add it, then choose 2.5, 5, 7.5, 10, 12.5 or 15mg. Also adds launcher shortcuts straight to the price list and the pharmacy directory.

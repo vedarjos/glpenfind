@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/glp_field">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="22dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/widget_config_title"
+            android:textColor="@color/glp_ink"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="14dp"
+            android:text="@string/widget_config_body"
+            android:textColor="@color/glp_ink_soft"
+            android:textSize="13sp" />
+
+        <RadioGroup
+            android:id="@+id/dose_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/dose_2_5"
+                style="@style/WidgetDoseOption"
+                android:text="@string/dose_2_5" />
+
+            <RadioButton
+                android:id="@+id/dose_5"
+                style="@style/WidgetDoseOption"
+                android:text="@string/dose_5" />
+
+            <RadioButton
+                android:id="@+id/dose_7_5"
+                style="@style/WidgetDoseOption"
+                android:checked="true"
+                android:text="@string/dose_7_5" />
+
+            <RadioButton
+                android:id="@+id/dose_10"
+                style="@style/WidgetDoseOption"
+                android:text="@string/dose_10" />
+
+            <RadioButton
+                android:id="@+id/dose_12_5"
+                style="@style/WidgetDoseOption"
+                android:text="@string/dose_12_5" />
+
+            <RadioButton
+                android:id="@+id/dose_15"
+                style="@style/WidgetDoseOption"
+                android:text="@string/dose_15" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:backgroundTint="@color/glp_oxblood"
+            android:paddingTop="14dp"
+            android:paddingBottom="14dp"
+            android:text="@string/widget_config_save"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>

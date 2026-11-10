@@ -1,0 +1,32 @@
+GLPenFind is an independent index of what UK pharmacies publish for a private
+weight-management consultation, per pen, at every dose.
+
+Every pharmacy in the list is checked against the General Pharmaceutical Council
+register of pharmacy premises. Anything we cannot verify is left out rather than
+listed with a warning. Each price is read from that pharmacy's own page, and every
+line keeps the exact URL and the date it was read, so you can check it yourself.
+
+A home-screen widget shows the cheapest published price at the dose you pick, and
+the date it was read — without opening the app, and without a network connection.
+
+Two things are ranked, and neither is for sale:
+
+Price — what the pharmacy publishes today, lowest first.
+
+Ease — what the pharmacy itself says it will ask of you before a prescriber decides:
+an online questionnaire, photos, a video call, ID, GP records, and the turnaround it
+admits to. Questionnaire-only scores highest; five checks plus repeat photos scores
+lowest. It is a floor, not a rating: hide your checks behind a consultation and you
+score well here by default, which is exactly why we show the steps next to the score.
+
+Where a pharmacy publishes nothing until you finish its consultation, we say so
+instead of guessing.
+
+No accounts. No tracking. No advertising. No analytics. Nothing is stored about you,
+because nothing is collected. The app reads a bundled copy of the index and works
+without a signal.
+
+GLPenFind is not affiliated with any pharmacy, prescriber or manufacturer, and it is
+not medical advice. It is a price list, not a recommendation — whether a treatment is
+suitable for you is decided with a prescriber during a consultation, never on price
+alone.

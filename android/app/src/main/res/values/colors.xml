@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Apricot & Sky, matching the app palette so the widget looks native to it. -->
+    <color name="glp_field">#A7D4E4</color>
+    <color name="glp_card">#F5ECC2</color>
+    <color name="glp_ink">#71502F</color>
+    <color name="glp_ink_soft">#5C452B</color>
+    <color name="glp_oxblood">#82241F</color>
+    <color name="glp_apricot">#FDC57E</color>
+</resources>

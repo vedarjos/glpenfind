@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">GLPenFind</string>
+    <string name="title_activity_main">GLPenFind</string>
+    <string name="package_name">uk.whimsical.glpenfind</string>
+    <string name="custom_url_scheme">uk.whimsical.glpenfind</string>
+
+    <!-- Home-screen widget -->
+    <string name="widget_description">Cheapest published price at the dose you pick, read from the index bundled in the app.</string>
+    <string name="widget_default_dose">7.5mg</string>
+    <string name="widget_refresh_glyph">↻</string>
+    <string name="widget_placeholder_price">£—</string>
+    <string name="widget_placeholder_pharmacy">No price yet</string>
+    <string name="widget_placeholder_meta">tap to open the app</string>
+    <string name="widget_config_title">Which dose should the widget watch?</string>
+    <string name="widget_config_body">The widget shows the cheapest price any listed pharmacy publishes at this dose, with the date it was read. Change it any time by removing and re-adding the widget.</string>
+    <string name="widget_config_save">Save widget</string>
+    <string name="dose_2_5">2.5mg</string>
+    <string name="dose_5">5mg</string>
+    <string name="dose_7_5">7.5mg</string>
+    <string name="dose_10">10mg</string>
+    <string name="dose_12_5">12.5mg</string>
+    <string name="dose_15">15mg</string>
+
+    <!-- App shortcuts -->
+    <string name="shortcut_prices_short">Prices</string>
+    <string name="shortcut_prices_long">See the price list</string>
+    <string name="shortcut_pharmacies_short">Pharmacies</string>
+    <string name="shortcut_pharmacies_long">Every listed pharmacy</string>
+</resources>

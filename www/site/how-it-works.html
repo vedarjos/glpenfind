@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-store">
+<title>How GLPenFind works — where the numbers come from</title>
+<meta name="description" content="How GLPenFind reads prices, scores Ease, verifies pharmacies against the GPhC register, and what it refuses to do.">
+<meta name="theme-color" content="#a7d4e4">
+<link rel="icon" href="../icon-192.png">
+<link rel="stylesheet" href="site.css?v=6">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<div class="wrap">
+  <header class="masthead">
+    <img class="mark" src="img/logo.png" alt="">
+    <a class="wordmark" href="index.html"><span class="glp">GLP</span>enFind</a>
+    <nav class="nav">
+      <a href="how-it-works.html" aria-current="page">How it works</a>
+      <a href="support.html">Support</a>
+      <a class="cta" href="../prices.html">Open the index</a>
+    </nav>
+  </header>
+</div>
+
+<main id="main">
+  <div class="wrap">
+    <section style="padding:40px 0 20px">
+      <p class="eyebrow">Method</p>
+      <h1 style="font-size:clamp(30px,4.4vw,48px)">Where the numbers come from</h1>
+      <p class="lede">Every price on GLPenFind was read from the pharmacy's own page. Nothing is estimated, averaged, or copied from another comparison site.</p>
+    </section>
+  </div>
+
+  <div class="band">
+    <div class="wrap twoup">
+      <div>
+        <h2>Reading the price</h2>
+        <p class="sub">A pharmacy usually publishes a price in one of three places: a product page, a shop variant table, or a structured data block behind the page. We read all three, then check the result against itself.</p>
+        <p class="sub">One rule does most of the work: <b>a price must never fall as the dose rises.</b> If a 12.5mg pen comes out cheaper than the 7.5mg, something has gone wrong — a misread, a different product, or a promotional bundle. When that happens we drop the single worst offending row and mark the pharmacy's data as medium confidence rather than publish a number we don't believe.</p>
+      </div>
+      <div>
+        <h2>What we never read</h2>
+        <ul class="points">
+          <li><b>Comparison articles.</b><span>A pharmacy's own "cheapest prices" blog post is marketing, not a price. Those URLs are blocked.</span></li>
+          <li><b>Other people's data.</b><span>No licensed database is copied. Pharmacy names and registration numbers come from public sources.</span></li>
+          <li><b>Behind a login.</b><span>If a price only appears after an account or a consultation, we record that as gated. We don't create accounts to look.</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <section style="padding:64px 0">
+      <h2>Scoring Ease</h2>
+      <p class="sub">Ease is a penalty score. It starts at 100 and subtracts for each publicly stated step between you and a price:</p>
+      <table class="ease-table">
+        <thead><tr><th>Step</th><th>Points off</th></tr></thead>
+        <tbody>
+          <tr><td>Online consultation or questionnaire</td><td>−10</td></tr>
+          <tr><td>Photograph of you, your ID, or the box</td><td>−15</td></tr>
+          <tr><td>Another photograph on refills</td><td>−15</td></tr>
+          <tr><td>Video or live verification call</td><td>−20</td></tr>
+          <tr><td>Government ID upload</td><td>−10</td></tr>
+          <tr><td>GP confirmation or letter</td><td>−10</td></tr>
+          <tr><td>Slow or manual approval</td><td>−5</td></tr>
+        </tbody>
+      </table>
+      <p class="sub" style="margin-top:20px">The floor is 5, so nothing scores zero by accident. A pharmacy whose process we can't read at all gets no score rather than a flattering one — an empty Ease figure is a statement in itself.</p>
+      <p class="sub">Ease describes friction, not quality of care. A high score is not a recommendation, and a low one is not a warning. It's a count of the hoops, written down so you can decide which hoops you're willing to jump through.</p>
+    </section>
+  </div>
+
+  <div class="band band-card">
+    <div class="wrap">
+      <h2>Checking the seller</h2>
+      <p class="sub">Prices from an unregulated seller are worthless, so every provider is checked against the General Pharmaceutical Council register before it is listed.</p>
+      <p class="sub">The strong signal is a registration number the pharmacy publishes itself, resolving to a registered premises on the register. A name match alone is weak — the register does loose matching, and a plausible-looking hit is not proof. Providers we couldn't tie to a premises were removed rather than flagged.</p>
+      <p class="sub">Two honesty notes. First, some pharmacies trade under a name that differs from the registered premises name; where that's the case we show the registered name alongside. Second, a number we can't confirm is shown as unconfirmed, or not shown at all.</p>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <section style="padding:64px 0">
+      <h2>Freshness</h2>
+      <p class="sub">Each price carries the date it was read and a link to the page it came from, so you can always check the source. The index is rebuilt as pharmacies change their pages, and the date at the top of the list tells you how current the whole thing is.</p>
+      <p class="sub">If you find a price that's wrong, the fastest fix is to tell us — the support page explains exactly what to include.</p>
+      <div class="actions" style="margin-top:26px">
+        <a class="btn btn-solid" href="../prices.html">Open the index</a>
+        <a class="btn btn-ghost" href="support.html">Report a price</a>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-brand">
+          <img class="mark" src="img/logo.png" alt="">
+          <b><span class="glp">GLP</span>enFind</b>
+        </div>
+        <p style="margin:0;color:#d8c8b4;max-width:40ch">An independent index of what UK pharmacies charge, and what they ask of you first.</p>
+      </div>
+      <div>
+        <h3>The index</h3>
+        <ul>
+          <li><a href="../prices.html">Prices by dose</a></li>
+          <li><a href="../pharmacies.html">Pharmacy directory</a></li>
+          <li><a href="how-it-works.html">How it works</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>More</h3>
+        <ul>
+          <li><a href="support.html">Support</a></li>
+          <li><a href="../privacy.html">Privacy</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="disclaimer">GLPenFind is an independent price index for information only. It is not a pharmacy and does not sell, prescribe or supply medicines. Prices and availability change; always confirm on the pharmacy's own site. If you are considering treatment, speak to a qualified prescriber.</p>
+  </div>
+</footer>
+</body>
+</html>

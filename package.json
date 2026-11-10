@@ -1,0 +1,28 @@
+{
+  "name": "mounjaro-price-index",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Live UK Mounjaro price index \u2014 iOS app",
+  "scripts": {
+    "serve": "python3 -m http.server 8790 --directory www",
+    "ios:add": "npx cap add ios",
+    "ios:sync": "npx cap sync ios && python3 pipeline/strip_cachebusters.py",
+    "ios:open": "npx cap open ios",
+    "assets": "npx capacitor-assets generate --iconBackgroundColor '#ccff00' --splashBackgroundColor '#fffdf5'",
+    "share": "./scripts/share.sh",
+    "ios:build": "npm run ios:sync && xcodebuild -project ios/App/App.xcodeproj -scheme App -configuration Debug -sdk iphonesimulator -destination \"platform=iOS Simulator,name=iPhone 17\" -derivedDataPath /tmp/glpen-dd CODE_SIGNING_ALLOWED=NO build",
+    "android:sync": "npx cap sync android && python3 pipeline/strip_cachebusters.py",
+    "android:build": "npm run android:sync && cd android && ./gradlew assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.6.0",
+    "@capacitor/core": "^8.5.3",
+    "@capacitor/ios": "^8.5.3"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^8.5.3",
+    "typescript": "^5.6.0"
+  },
+  "license": "GPL-3.0-or-later"
+}

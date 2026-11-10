@@ -1,0 +1,1268 @@
+{
+ "generated_at": "2026-10-30T20:56:42+00:00",
+ "weights": {
+  "questionnaire": 10,
+  "photo": 15,
+  "repeat_photo": 15,
+  "video": 20,
+  "id": 10,
+  "gp": 10,
+  "slow": 5
+ },
+ "providers": {
+  "Allerton": {
+   "steps": [
+    "questionnaire"
+   ],
+   "approval_days": null,
+   "delivery": "Free delivery",
+   "code": null,
+   "domain": "allertonbywaterpharmacy.co.uk",
+   "rating": 4.7,
+   "reviews": 65,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [
+    "questionnaire: \u2026acy provides NHS and private healthcare services, including online consultations, weight management, travel vaccinations, prescriptions, an\u2026"
+   ],
+   "source": "https://allertonbywaterpharmacy.co.uk/private-services/weight-management/reorder"
+  },
+  "Asda": {
+   "steps": [],
+   "approval_days": null,
+   "delivery": null,
+   "code": null,
+   "domain": "onlinedoctor.asda.com",
+   "rating": 4.5,
+   "reviews": 17654,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [],
+   "source": "https://onlinedoctor.asda.com/uk/wegovy-vs-mounjaro-vs-ozempic.html"
+  },
+  "AYP Healthcare": {
+   "steps": [],
+   "approval_days": null,
+   "delivery": null,
+   "code": null,
+   "domain": "ayp.healthcare",
+   "rating": null,
+   "reviews": null,
+   "rating_source": null,
+   "evidence": [],
+   "source": ""
+  },
+  "Ashcroft Pharmacy": {
+   "steps": [
+    "questionnaire"
+   ],
+   "approval_days": null,
+   "delivery": "Next-day delivery",
+   "code": "SPOOKY15",
+   "domain": "ashcroftpharmacy.co.uk",
+   "rating": 4.8,
+   "reviews": 14743,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [
+    "questionnaire: \u2026: After selecting this product, you will need to complete a short assessment, so we can make sure this medication is suitable for you.</\u2026"
+   ],
+   "source": "https://www.ashcroftpharmacy.co.uk/online-doctor/weight-loss/weight-loss-mounjaro"
+  },
+  "Bolt Pharmacy": {
+   "steps": [
+    "questionnaire"
+   ],
+   "approval_days": null,
+   "delivery": null,
+   "code": null,
+   "domain": "boltpharmacy.co.uk",
+   "rating": 4.6,
+   "reviews": 8266,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [
+    "questionnaire: \u2026Wegovy online in the UK from Bolt Pharmacy by completing an online consultation. One of our prescribing clinicians will review your consult\u2026"
+   ],
+   "source": "https://www.boltpharmacy.co.uk/mounjaro"
+  },
+  "Chemist4U": {
+   "steps": [
+    "questionnaire"
+   ],
+   "approval_days": null,
+   "delivery": "Free delivery",
+   "code": null,
+   "domain": "www.chemist-4-u.com",
+   "rating": 4.8,
+   "reviews": 133158,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [
+    "questionnaire: \u2026ll prescribed by UK-regulated clinicians following a secure online consultation. <span class=\"trigger cursor-pointer text-cy\u2026"
+   ],
+   "source": "https://www.chemist-4-u.com/weight-loss/weight-loss-injections"
+  },
+  "Chequp": {
+   "steps": [
+    "questionnaire"
+   ],
+   "approval_days": null,
+   "delivery": null,
+   "code": null,
+   "domain": "chequp.com",
+   "rating": 4.4,
+   "reviews": 14024,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [
+    "questionnaire: \u2026start\",\"gtm.vwo_chequp_email_signup\",\"completionRateForQuickQuestionnaire\",\"gtm.vwo_chequp_ww_click\",\"gtm.vwo_chequp_call_click\",\"vwo\u2026"
+   ],
+   "source": "https://chequp.com/mounjaro/glp-1"
+  },
+  "Boots": {
+   "steps": [
+    "questionnaire"
+   ],
+   "approval_days": 1,
+   "delivery": null,
+   "code": null,
+   "domain": "onlinedoctor.boots.com",
+   "rating": 4.3,
+   "reviews": 6788,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [
+    "questionnaire: \u2026other medicines you're taking when you fill out our online questionnaire. This ensures we're able to prescribe weight loss treatment\u2026",
+    "researched: online consultation, clinician review within 24h"
+   ],
+   "source": "https://onlinedoctor.boots.com/treatments/mounjaro"
+  },
+  "Click 2 Pharmacy": {
+   "steps": [],
+   "approval_days": null,
+   "delivery": null,
+   "code": null,
+   "domain": "click2pharmacy.co.uk",
+   "rating": 4.8,
+   "reviews": 8058,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [],
+   "source": "https://click2pharmacy.co.uk/mounjaro"
+  },
+  "Cuva Health": {
+   "steps": [],
+   "approval_days": null,
+   "delivery": null,
+   "code": null,
+   "domain": "cuvahealth.co.uk",
+   "rating": 4.9,
+   "reviews": 205,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [],
+   "source": "https://cuvahealth.co.uk/product/mounjaro"
+  },
+  "Curate": {
+   "steps": [
+    "questionnaire"
+   ],
+   "approval_days": null,
+   "delivery": "Delivery included",
+   "code": "\u00a340 off your first order",
+   "domain": "curatehealth.co.uk",
+   "rating": 3.9,
+   "reviews": 17540,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [
+    "questionnaire: \u2026\" content=\"#FAFAF7\"><title>Mounjaro UK: Prices, Doses &amp; Online Consultation \u00b7 Curate Health</title><meta name=\"description\" content=\"Mo\u2026"
+   ],
+   "source": "https://curatehealth.co.uk/weight-loss/mounjaro"
+  },
+  "Curely": {
+   "steps": [],
+   "approval_days": null,
+   "delivery": null,
+   "code": null,
+   "domain": "curely.co.uk",
+   "rating": null,
+   "reviews": null,
+   "rating_source": null,
+   "evidence": [],
+   "source": ""
+  },
+  "e-Surgery": {
+   "steps": [],
+   "approval_days": null,
+   "delivery": null,
+   "code": null,
+   "domain": "e-surgery.com",
+   "rating": null,
+   "reviews": null,
+   "rating_source": null,
+   "evidence": [],
+   "source": ""
+  },
+  "Everwell": {
+   "steps": [
+    "questionnaire",
+    "video"
+   ],
+   "approval_days": 4,
+   "delivery": "Free delivery",
+   "code": null,
+   "domain": "joineverwell.com",
+   "rating": 4.5,
+   "reviews": 16,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [
+    "questionnaire: \u2026rgin: 0px;\">Open your account and complete an online health questionnaire</p> </div> <div data-dc-tpl=\"345\" style=\"fl\u2026",
+    "video: \u2026unjaro. A UK-registered doctor confirms suitability on your video consult.' + ethNote; } else if (b >= t27) { vTitle = 'You\u2026"
+   ],
+   "source": "https://joineverwell.com/treatments/mounjaro"
+  },
+  "DoToR": {
+   "steps": [],
+   "approval_days": null,
+   "delivery": null,
+   "code": null,
+   "domain": "dotor.co.uk",
+   "rating": 4.5,
+   "reviews": 24,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [],
+   "source": "https://dotor.co.uk/mounjaro"
+  },
+  "Dr Weightmans": {
+   "steps": [],
+   "approval_days": null,
+   "delivery": null,
+   "code": null,
+   "domain": "drweightmans.com",
+   "rating": 4.9,
+   "reviews": 376,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [],
+   "source": "https://drweightmans.com/product/mounjaro"
+  },
+  "Envigore": {
+   "steps": [
+    "questionnaire",
+    "video",
+    "id"
+   ],
+   "approval_days": 4,
+   "delivery": null,
+   "code": null,
+   "domain": "envigore.com",
+   "rating": 4.8,
+   "reviews": 203,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [
+    "questionnaire: \u2026Answer\", \"text\": \"Start by completing our quick online consultation. Then follow all steps in your my account and complete your\u2026",
+    "video: \u2026Then follow all steps in your my account and complete your video consultation with our nurses. Once approved by our prescriber, your\u2026",
+    "id: \u2026ata-start=\"1519\" data-end=\"1599\">Yes. We\u2019ll ask for a valid photo ID, a body photo for BMI verification, and a picture of your s\u2026"
+   ],
+   "source": "https://envigore.com/mounjaro"
+  },
+  "Farmeci": {
+   "steps": [
+    "questionnaire"
+   ],
+   "approval_days": 96,
+   "delivery": "Next-day delivery",
+   "code": null,
+   "domain": "www.farmeci.com",
+   "rating": 4.4,
+   "reviews": 1720,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [
+    "questionnaire: \u2026d a prescription before starting Mounjaro in UK. Get a free online consultation and prescription from Farmeci.</p><h4><strong class=\"\">\u2b1c Wh\u2026"
+   ],
+   "source": "https://farmeci.com/onlineclinic/mounjaro-pen"
+  },
+  "Genmeds": {
+   "steps": [],
+   "approval_days": null,
+   "delivery": null,
+   "code": null,
+   "domain": "genmeds.co.uk",
+   "rating": 4.7,
+   "reviews": 57,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [],
+   "source": "https://genmeds.co.uk/treatments/weight-loss/mounjaro"
+  },
+  "Get A Drip": {
+   "steps": [],
+   "approval_days": null,
+   "delivery": null,
+   "code": null,
+   "domain": "getadrip.shop",
+   "rating": 3.3,
+   "reviews": 1568,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [],
+   "source": "https://getadrip.shop/products/mounjaro-1"
+  },
+  "Get Weightloss": {
+   "steps": [
+    "questionnaire"
+   ],
+   "approval_days": null,
+   "delivery": null,
+   "code": null,
+   "domain": "getweightloss.co.uk",
+   "rating": 4.5,
+   "reviews": 171,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [
+    "questionnaire: \u2026ng-[60px] px-[10px]\">We offer various services ranging from online consultations for weight, nutrition and blood tests*. </p>\u2026"
+   ],
+   "source": "https://getweightloss.co.uk/medications/mounjaro"
+  },
+  "Happen": {
+   "steps": [],
+   "approval_days": null,
+   "delivery": null,
+   "code": null,
+   "domain": "happen.co.uk",
+   "rating": null,
+   "reviews": null,
+   "rating_source": null,
+   "evidence": [],
+   "source": ""
+  },
+  "Fylde Clinic": {
+   "steps": [
+    "questionnaire"
+   ],
+   "approval_days": 25,
+   "delivery": null,
+   "code": null,
+   "domain": "fyldeclinic.co.uk",
+   "rating": 4.7,
+   "reviews": 1046,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [
+    "questionnaire: \u2026y is our highest standard. Every repeat order needs a brief online consultation form so our UK clinical team can review your dose tolerance\u2026"
+   ],
+   "source": "https://fyldeclinic.co.uk/health-hub/mounjaro-reorder-rewards-pricing-guide"
+  },
+  "Happy Pharmacy": {
+   "steps": [],
+   "approval_days": null,
+   "delivery": null,
+   "code": null,
+   "domain": "happypharmacy.co.uk",
+   "rating": null,
+   "reviews": null,
+   "rating_source": null,
+   "evidence": [],
+   "source": ""
+  },
+  "IQ Doctor": {
+   "steps": [
+    "questionnaire",
+    "gp"
+   ],
+   "approval_days": null,
+   "delivery": "Free delivery",
+   "code": null,
+   "domain": "iqdoctor.co.uk",
+   "rating": 4.6,
+   "reviews": 11992,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [
+    "questionnaire: \u2026anagement injection available in the UK. Complete your free online consultation with iQ Doctor today.\"> <meta property=\"og:url\" con\u2026",
+    "gp: \u2026e been assessed.</p> <p><strong>Where to get help:</strong> contact your GP urgently or call NHS 111. If the pain is severe or you have\u2026"
+   ],
+   "source": "https://www.iqdoctor.co.uk/treatments/weight-loss/mounjaro-tirzepatide-injection"
+  },
+  "Heba": {
+   "steps": [
+    "questionnaire"
+   ],
+   "approval_days": null,
+   "delivery": "Next-day delivery",
+   "code": "NEW40",
+   "domain": "www.hebaonlinepharmacy.com",
+   "rating": 4.8,
+   "reviews": 53,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [
+    "questionnaire: \u2026ription\" content=\"Heba Online Pharmacy offers quick, secure online consultation and prescriptions for weight loss medication, ED, travel si\u2026"
+   ],
+   "source": "https://www.hebaonlinepharmacy.com/medications/mounjaro",
+   "offer": "\u00a340 off your first order"
+  },
+  "Juniper": {
+   "steps": [],
+   "approval_days": 25,
+   "delivery": "Free delivery",
+   "code": null,
+   "domain": "myjuniper.co.uk",
+   "rating": 4.5,
+   "reviews": 14403,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [],
+   "source": "https://www.myjuniper.co.uk/gip-injections"
+  },
+  "Live Well Weight Loss": {
+   "steps": [
+    "questionnaire"
+   ],
+   "approval_days": null,
+   "delivery": "Royal mail tracked 24",
+   "code": null,
+   "domain": "livewellweightloss.co.uk",
+   "rating": null,
+   "reviews": null,
+   "rating_source": null,
+   "evidence": [
+    "questionnaire: \u2026s a prescription-only medicine and is only supplied after a clinical assessment confirms it is suitable for you.</p> <div class=\"lwpc-box\"\u2026"
+   ],
+   "source": "https://livewellweightloss.co.uk/mounjaro-pen-price-comparison-uk-2026"
+  },
+  "Lloyds Pharmacy": {
+   "steps": [
+    "questionnaire"
+   ],
+   "approval_days": 4,
+   "delivery": "Next-day delivery",
+   "code": null,
+   "domain": "onlinedoctor.lloydspharmacy.com",
+   "rating": 4.3,
+   "reviews": 16468,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [
+    "questionnaire: \u2026, usage, side effects, benefits &amp; more with our trusted online consultation service.\"> <meta property=\"og:site_name\" content=\"Lloyds On\u2026"
+   ],
+   "source": "https://onlinedoctor.lloydspharmacy.com/products/mounjaro-tirzepatide-weight-loss-injection"
+  },
+  "Manchester Chemist": {
+   "steps": [],
+   "approval_days": null,
+   "delivery": null,
+   "code": null,
+   "domain": "manchesterchemist.com",
+   "rating": 4.7,
+   "reviews": 27,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [],
+   "source": "https://manchesterchemist.com/mounjaro-manchester"
+  },
+  "Lotus Weight Loss": {
+   "steps": [
+    "photo",
+    "questionnaire"
+   ],
+   "approval_days": 2,
+   "delivery": "Next-day delivery",
+   "code": null,
+   "domain": "lotusweightloss.co.uk",
+   "rating": 3.9,
+   "reviews": 232,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [
+    "questionnaire: \u2026complete our <a href=\"/pages/assessment\" title=\"Assessment\">online consultation</a>. It will guide you through each step and help us safely\u2026",
+    "seen by hand: assessment is gated by a consent declaration (T&Cs + patient consent form), then a two-screen consultation (Assessment -> Image Upload -> Details); the image upload step accepts files or a camera capture, so a photo is required before the pharmacy will prescribe"
+   ],
+   "source": "https://www.lotusweightloss.co.uk/products/mounjaro",
+   "hand_checked_source": "https://www.lotusweightloss.co.uk/pages/assessment",
+   "advertised_rating": {
+    "score": 4.7,
+    "count": 1439,
+    "platform": "Yotpo (first-party widget on their own site)",
+    "source": "https://www.lotusweightloss.co.uk/pages/assessment"
+   },
+   "hand_checked": "2026-10-26"
+  },
+  "MedHut": {
+   "steps": [],
+   "approval_days": null,
+   "delivery": null,
+   "code": null,
+   "domain": "medhut.co.uk",
+   "rating": 4.6,
+   "reviews": 20,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [],
+   "source": "https://www.medhut.co.uk/blog/mounjaro-uk-cost-how-to-get-it"
+  },
+  "Medicine Marketplace": {
+   "steps": [
+    "questionnaire",
+    "id"
+   ],
+   "approval_days": 1,
+   "delivery": null,
+   "code": null,
+   "domain": "medicinemarketplace.com",
+   "rating": 4.6,
+   "reviews": 29567,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [
+    "researched: new customers may need ID and weight information; repeat orders lighter"
+   ],
+   "source": "https://www.medicinemarketplace.com/all-medical-treatments/medical-weight-loss/"
+  },
+  "MedExpress": {
+   "steps": [
+    "questionnaire",
+    "repeat_photo",
+    "video",
+    "id",
+    "gp"
+   ],
+   "approval_days": 4,
+   "delivery": null,
+   "code": null,
+   "domain": "www.medexpress.co.uk",
+   "rating": 4.3,
+   "reviews": 59024,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [
+    "questionnaire: \u2026xt-body-medium font-body-medium leading-body-medium\">Take a short assessment and our clinical team confirms whether this treatment is ri\u2026",
+    "repeat_photo: \u2026ard-mobile px-general-md py-general-sm\">Do I need to upload photos every time I reorder?<svg xmlns=\"http://www.w3.org/2000/svg\" clas\u2026",
+    "video: \u2026contact our Customer Care team, who can discuss arranging a video consultation (AVC) as an alternative.</p><p class=\"font-primary tex\u2026",
+    "id: \u2026mary text-body-medium font-body-medium leading-body-medium\">Photo ID: A valid passport or driving licence, required for all GLP-\u2026",
+    "researched: GPhC inspection action plan points to stronger verification and review controls"
+   ],
+   "source": "https://www.medexpress.co.uk/clinics/weight-loss/mounjaro"
+  },
+  "Medicspot": {
+   "steps": [
+    "questionnaire"
+   ],
+   "approval_days": null,
+   "delivery": "Next-day delivery",
+   "code": null,
+   "domain": "medicspot.co.uk",
+   "rating": 4.1,
+   "reviews": 12349,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [
+    "questionnaire: \u2026atment in the UK. Access is determined as part of an online clinical assessment reviewed by a UK-registered prescriber, and a prescription\u2026"
+   ],
+   "source": "https://www.medicspot.co.uk/weight-loss/injections/mounjaro-uk"
+  },
+  "Molecule": {
+   "steps": [],
+   "approval_days": null,
+   "delivery": null,
+   "code": null,
+   "domain": "molecule.co.uk",
+   "rating": null,
+   "reviews": null,
+   "rating_source": null,
+   "evidence": [],
+   "source": ""
+  },
+  "Medy": {
+   "steps": [
+    "questionnaire",
+    "video"
+   ],
+   "approval_days": 1,
+   "delivery": null,
+   "code": null,
+   "domain": "medy.uk",
+   "rating": 4.4,
+   "reviews": 46,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [
+    "questionnaire: \u2026\"></div><h3 class=\"mb-3 text-xl font-semibold text-primary\">Online Consultation</h3><p class=\"max-w-xs text-primary\">Complete a 2-minute he\u2026",
+    "video: \u2026Before your first prescription you'll also have a one-time video consultation from your phone, tablet or computer.\"}},{\"@type\":\"Ques\u2026"
+   ],
+   "source": "https://www.medy.uk/weight-loss-treatments"
+  },
+  "MSH Weight Loss": {
+   "steps": [],
+   "approval_days": null,
+   "delivery": null,
+   "code": null,
+   "domain": "mshweightloss.co.uk",
+   "rating": 4.5,
+   "reviews": 28,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [],
+   "source": "https://www.mshweightloss.co.uk/glp-1-medication"
+  },
+  "New Health": {
+   "steps": [],
+   "approval_days": null,
+   "delivery": null,
+   "code": null,
+   "domain": "new.co.uk",
+   "rating": null,
+   "reviews": null,
+   "rating_source": null,
+   "evidence": [],
+   "source": ""
+  },
+  "My London Pharmacy": {
+   "steps": [
+    "questionnaire"
+   ],
+   "approval_days": null,
+   "delivery": "Next-day delivery",
+   "code": null,
+   "domain": "mylondonpharmacy.co.uk",
+   "rating": 4.5,
+   "reviews": 2181,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [
+    "questionnaire: \u2026following an assessment by a qualified clinician through an online consultation platform.\\u003c/p\\u003e\\u003cp\\u003eOur clinicians review y\u2026"
+   ],
+   "source": "https://app.mylondonpharmacy.co.uk/onlineclinic/mounjaro-pen"
+  },
+  "Next Script": {
+   "steps": [],
+   "approval_days": null,
+   "delivery": null,
+   "code": null,
+   "domain": "nextscript.co.uk",
+   "rating": 4.7,
+   "reviews": 164,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [],
+   "source": "https://nextscript.co.uk/shop/mounjaro-weight-loss/"
+  },
+  "Nulife Pharmacy": {
+   "steps": [],
+   "approval_days": null,
+   "delivery": null,
+   "code": null,
+   "domain": "thenulife.com",
+   "rating": 4.8,
+   "reviews": 130,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [],
+   "source": "https://www.thenulife.com/weight-loss-management"
+  },
+  "Novavie": {
+   "steps": [],
+   "approval_days": 4,
+   "delivery": null,
+   "code": null,
+   "domain": "novavie.co.uk",
+   "rating": 4.6,
+   "reviews": 19,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [],
+   "source": "https://novavie.co.uk/shop/mounjaro-weight-loss"
+  },
+  "OnlineMeds": {
+   "steps": [
+    "questionnaire"
+   ],
+   "approval_days": null,
+   "delivery": null,
+   "code": null,
+   "domain": "onlinemeds.co.uk",
+   "rating": 4.8,
+   "reviews": 69,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [
+    "questionnaire: \u2026: #0bbec5;\"><strong>This medication <em>may</em> require an online consultation with a UK-registered prescriber to assess its suitability b\u2026"
+   ],
+   "source": "https://onlinemeds.co.uk/shop/mounjaro-kwikpen"
+  },
+  "Numan": {
+   "steps": [
+    "questionnaire",
+    "photo",
+    "id"
+   ],
+   "approval_days": 4,
+   "delivery": null,
+   "code": null,
+   "domain": "numan.com",
+   "rating": 4.6,
+   "reviews": 36676,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [
+    "questionnaire: \u2026session ID to manage user sessions. Used to track anonymous questionnaire users so will always be strictly necessary, do not change.<\u2026",
+    "researched: ID, body shots and current medication evidence required"
+   ],
+   "source": "https://www.numan.com/weight-loss/mounjaro"
+  },
+  "Pharmacy Advance": {
+   "steps": [
+    "questionnaire",
+    "video"
+   ],
+   "approval_days": null,
+   "delivery": "Next-day delivery",
+   "code": null,
+   "domain": "pharmacyadvance.co.uk",
+   "rating": 4.3,
+   "reviews": 17,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [
+    "questionnaire: \u2026=\"https://pharmacyadvance.co.uk/wp-content/plugins/woo-chat-questionnaire/assets/chat.css\" media=\"all\"> <link rel=\"stylesheet\" id=\"wo\u2026",
+    "video: \u2026idering your BMI and related conditions.<br><br> A required video consultation with our qualified healthcare professionals follows. T\u2026"
+   ],
+   "source": "https://pharmacyadvance.co.uk/online-treatments/weight-loss"
+  },
+  "Oushk": {
+   "steps": [],
+   "approval_days": null,
+   "delivery": null,
+   "code": null,
+   "domain": "oushkpharmacy.com",
+   "rating": null,
+   "reviews": null,
+   "rating_source": null,
+   "evidence": [],
+   "source": ""
+  },
+  "Pharmacy Express": {
+   "steps": [],
+   "approval_days": null,
+   "delivery": null,
+   "code": null,
+   "domain": "pharmacy-express.co.uk",
+   "rating": null,
+   "reviews": null,
+   "rating_source": null,
+   "evidence": [],
+   "source": ""
+  },
+  "Pharmica": {
+   "steps": [
+    "questionnaire",
+    "gp"
+   ],
+   "approval_days": null,
+   "delivery": "Next-day delivery",
+   "code": null,
+   "domain": "pharmica.co.uk",
+   "rating": 4.9,
+   "reviews": 53178,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [
+    "questionnaire: \u2026lg tw-font-semibold tw-text-center\">Quick Online Medical<br>Questionnaire</p> <p class=\"tw-mt-4 tw-text-center tw-text-balance\">No GP\u2026",
+    "gp: \u2026rious. Make sure to stay hydrated during your treatment and contact your GP or doctor if you experience these symptoms.</p> <p><strong>\u2026"
+   ],
+   "source": "https://www.pharmica.co.uk/weight-loss/mounjaro"
+  },
+  "Pills2U": {
+   "steps": [],
+   "approval_days": null,
+   "delivery": null,
+   "code": null,
+   "domain": "pills2u.co.uk",
+   "rating": 4.6,
+   "reviews": 151,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [],
+   "source": "https://pills2u.co.uk/mounjaro-injection"
+  },
+  "Pharmacy2U": {
+   "steps": [],
+   "approval_days": null,
+   "delivery": null,
+   "code": null,
+   "domain": "pharmacy2u.co.uk",
+   "rating": null,
+   "reviews": null,
+   "rating_source": null,
+   "evidence": [],
+   "source": ""
+  },
+  "PillSorted": {
+   "steps": [],
+   "approval_days": null,
+   "delivery": null,
+   "code": null,
+   "domain": "pillsorted.com",
+   "rating": 4.7,
+   "reviews": 3997,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [],
+   "source": "https://pillsorted.com/product/mounjaro"
+  },
+  "Pharmulous": {
+   "steps": [
+    "questionnaire"
+   ],
+   "approval_days": null,
+   "delivery": "Next-day delivery",
+   "code": null,
+   "domain": "pharmulous.co.uk",
+   "rating": 4.8,
+   "reviews": 1546,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [
+    "questionnaire: \u2026ent for a wide range of conditions, as well as fast, secure online consultations and discrete delivery.\"><meta name=\"twitter:image\" content\u2026"
+   ],
+   "source": "https://www.pharmulous.co.uk/online-doctor/weight-loss/mounjaro-injection"
+  },
+  "Quick Meds": {
+   "steps": [],
+   "approval_days": null,
+   "delivery": null,
+   "code": null,
+   "domain": "quickmeds.co.uk",
+   "rating": null,
+   "reviews": null,
+   "rating_source": null,
+   "evidence": [],
+   "source": ""
+  },
+  "PillTime": {
+   "steps": [
+    "questionnaire"
+   ],
+   "approval_days": null,
+   "delivery": null,
+   "code": null,
+   "domain": "pilltime.co.uk",
+   "rating": 3.7,
+   "reviews": 24258,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [
+    "questionnaire: \u2026our assessment</h3> <p>A short, confidential health questionnaire so we can check what's suitable for you.</p> </li>\u2026"
+   ],
+   "source": "https://pilltime.co.uk/weight-loss"
+  },
+  "Skin & Shape": {
+   "steps": [
+    "questionnaire"
+   ],
+   "approval_days": null,
+   "delivery": null,
+   "code": null,
+   "domain": "skinandshape.co.uk",
+   "rating": 4.9,
+   "reviews": 192,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [
+    "questionnaire: \u2026] text-white\"><path d=\"M20 6 9 17l-5-5\"></path></svg>Simple online consultation process</li><li class=\"flex items-start gap-[8px] text-sm\">\u2026"
+   ],
+   "source": "https://skinandshape.co.uk/our-treatments/weight-loss/1"
+  },
+  "Second Nature": {
+   "steps": [
+    "questionnaire"
+   ],
+   "approval_days": 2,
+   "delivery": null,
+   "code": null,
+   "domain": "secondnature.io",
+   "rating": 4.6,
+   "reviews": 8125,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [
+    "questionnaire: \u2026isn't a problem.\\nThe onboarding includes a detailed health questionnaire and clinical review. Be completely honest about your health\u2026"
+   ],
+   "source": "https://www.secondnature.io/weight-loss-medication"
+  },
+  "Slimming Direct": {
+   "steps": [
+    "questionnaire"
+   ],
+   "approval_days": null,
+   "delivery": null,
+   "code": null,
+   "domain": "slimmingdirect.co.uk",
+   "rating": 4.6,
+   "reviews": 134,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [
+    "questionnaire: \u2026n-slug=glp-1-weight-loss-medication\">quick and confidential online consultation</a></span> will help you find out if Mounjaro is the right\u2026"
+   ],
+   "source": "https://slimmingdirect.co.uk/product/mounjaro-weight-loss-injection"
+  },
+  "Swift Doctor": {
+   "steps": [],
+   "approval_days": null,
+   "delivery": null,
+   "code": null,
+   "domain": "swift-doctor.com",
+   "rating": 4.9,
+   "reviews": 1780,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [],
+   "source": "https://swift-doctor.com/collections/weight-loss"
+  },
+  "Slinic": {
+   "steps": [],
+   "approval_days": null,
+   "delivery": null,
+   "code": null,
+   "domain": "slinic.co.uk",
+   "rating": 4.7,
+   "reviews": 40,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [],
+   "source": "https://slinic.co.uk/mounjaro-weight-loss"
+  },
+  "SuperDrug": {
+   "steps": [
+    "questionnaire",
+    "gp",
+    "photo",
+    "repeat_photo",
+    "slow"
+   ],
+   "approval_days": 1,
+   "delivery": null,
+   "code": null,
+   "domain": "onlinedoctor.superdrug.com",
+   "rating": 4.5,
+   "reviews": 36826,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [
+    "questionnaire: \u20262 hb-font-heading-4 has-text-black\">Complete a short health questionnaire</p> <div class=\"content\u2026",
+    "gp: \u2026nline Doctor, you\u2019ll automatically get a free, downloadable GP letter after your order is approved, which you can use for travell\u2026",
+    "researched: photos before start, again after 3-4 months and annually; 24h approval target"
+   ],
+   "source": "https://onlinedoctor.superdrug.com/mounjaro.html"
+  },
+  "Simple Online Pharmacy": {
+   "steps": [],
+   "approval_days": null,
+   "delivery": null,
+   "code": null,
+   "domain": "simpleonlinepharmacy.co.uk",
+   "rating": 4.6,
+   "reviews": 51933,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [],
+   "source": "https://simpleonlinepharmacy.co.uk/weight-loss/mounjaro"
+  },
+  "Swift Medi": {
+   "steps": [
+    "questionnaire"
+   ],
+   "approval_days": null,
+   "delivery": "Free delivery",
+   "code": "AUTUMN10",
+   "domain": "swiftmedi.co.uk",
+   "rating": 4.6,
+   "reviews": 58,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [
+    "questionnaire: \u2026\"howItWorks__itemContent\"><h3 class=\"howItWorks__itemTitle\">Online Consultation</h3><div class=\"wysiwyg\">\u2026"
+   ],
+   "source": "https://www.swiftmedi.co.uk/treatments/weight-loss/mounjaro",
+   "code_alt": "SLIM30"
+  },
+  "The Care Pharmacy": {
+   "steps": [
+    "questionnaire"
+   ],
+   "approval_days": null,
+   "delivery": "Free delivery",
+   "code": null,
+   "domain": "thecarepharmacy.com",
+   "rating": 4.8,
+   "reviews": 1091,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [
+    "questionnaire: \u2026cy.com/consultation/?condition-slug=weight-loss\">Start your online consultation</a></li> </ul> <div style=\"background: #ffffff; border: 1px\u2026",
+    "seen by hand: page text reads 'Many pharmacies offer \u00a320\u2013\u00a380 off for new customers' \u2014 a comment about the market, not an offer of theirs; the earlier code extraction misread it as their own"
+   ],
+   "source": "https://thecarepharmacy.com/mounjaro-price-comparison-uk",
+   "hand_checked_source": "https://thecarepharmacy.com/mounjaro-price-comparison-uk",
+   "hand_checked": "2026-10-26"
+  },
+  "The Independent Pharmacy": {
+   "steps": [],
+   "approval_days": null,
+   "delivery": null,
+   "code": null,
+   "domain": "www.theindependentpharmacy.co.uk",
+   "rating": null,
+   "reviews": null,
+   "rating_source": null,
+   "evidence": [],
+   "source": ""
+  },
+  "The Family Chemist": {
+   "steps": [
+    "questionnaire"
+   ],
+   "approval_days": null,
+   "delivery": "Free delivery",
+   "code": "\u00a320 off your first order",
+   "domain": "thefamilychemist.co.uk",
+   "rating": 4.7,
+   "reviews": 10271,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [
+    "questionnaire: \u2026idget-container\"> <p>Complete a quick, free online questionnaire.</p> </div> </div> </div> </div> </\u2026"
+   ],
+   "source": "https://www.thefamilychemist.co.uk/mounjaro"
+  },
+  "Tribelle": {
+   "steps": [
+    "questionnaire",
+    "video"
+   ],
+   "approval_days": null,
+   "delivery": null,
+   "code": null,
+   "domain": "tribelle.co.uk",
+   "rating": null,
+   "reviews": null,
+   "rating_source": null,
+   "evidence": [
+    "questionnaire: \u2026n mt-2\">If you are already a TribElle customer, fill in the online consultation, and we'll do the rest!</p></div></div></div></div></div><d\u2026",
+    "video: \u2026t to switch to us, that\u2019s great. All we need is a 10-minute video consultation and evidence of your initial eligibility and evidence\u2026"
+   ],
+   "source": "https://tribelle.co.uk/treatments/injectable-weight-loss"
+  },
+  "The Weight Clinic": {
+   "steps": [
+    "video"
+   ],
+   "approval_days": null,
+   "delivery": null,
+   "code": null,
+   "domain": "theweightclinic.co.uk",
+   "rating": 4.4,
+   "reviews": 38,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [
+    "video: \u2026rescribe it only after a full clinical review \u2014 including a video consultation with our specialist weight-loss prescriber \u2014 and dispe\u2026"
+   ],
+   "source": "https://theweightclinic.co.uk/mounjaro"
+  },
+  "Totiva": {
+   "steps": [
+    "questionnaire",
+    "video",
+    "gp"
+   ],
+   "approval_days": null,
+   "delivery": "Next-day delivery",
+   "code": null,
+   "domain": "totiva.co.uk",
+   "rating": 4.8,
+   "reviews": 76,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [
+    "questionnaire: \u2026ne bg-brand-50 sm:aspect-square sm:w-auto\"><img alt=\"Totiva online consultation on a phone\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\u2026",
+    "video: \u2026n not fault this company. He inital consultation was over a video call and was very thorough. My order came super fast. They whats\u2026",
+    "gp: \u2026k lumps or have thyroid worries while taking this medicine, contact your GP right away.\\u003c/li\\u003e\\n \\u003cli\\u003ePancreati\u2026"
+   ],
+   "source": "https://www.totiva.co.uk/services/weight-loss/mounjaro"
+  },
+  "Well Pharmacy": {
+   "steps": [],
+   "approval_days": null,
+   "delivery": null,
+   "code": null,
+   "domain": "www.well.co.uk",
+   "rating": 4.3,
+   "reviews": 37124,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [],
+   "source": "https://www.well.co.uk/mounjaro"
+  },
+  "Voy": {
+   "steps": [],
+   "approval_days": null,
+   "delivery": null,
+   "code": null,
+   "domain": "www.joinvoy.com",
+   "rating": null,
+   "reviews": null,
+   "rating_source": null,
+   "evidence": [],
+   "source": ""
+  },
+  "XO": {
+   "steps": [],
+   "approval_days": null,
+   "delivery": null,
+   "code": null,
+   "domain": "xo-co.uk",
+   "rating": 4.6,
+   "reviews": 21,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [],
+   "source": "https://www.xo-co.uk/pages/mounjaro"
+  },
+  "Trim": {
+   "steps": [
+    "id"
+   ],
+   "approval_days": null,
+   "delivery": null,
+   "code": null,
+   "domain": "gettrim.co.uk",
+   "rating": 4.8,
+   "reviews": 201,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [
+    "id: \u2026nitionless\":false},{\"id\":\"191532138819\",\"key\":\"i_d\",\"name\":\"Passport or Drivers license\",\"type\":\"file_reference\",\"adminId\":\"gid:\u2026"
+   ],
+   "source": "https://gettrim.co.uk/pages/mounjaro-for-postpartum-weight-loss"
+  },
+  "WePrescribe": {
+   "steps": [
+    "questionnaire",
+    "video"
+   ],
+   "approval_days": 4,
+   "delivery": null,
+   "code": null,
+   "domain": "weprescribe.co.uk",
+   "rating": 4.9,
+   "reviews": 2154,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [
+    "questionnaire: \u2026lass=\"elementor-image-box-title\">2. Complete a short online questionnaire</span><p class=\"elementor-image-box-description\">Your answe\u2026",
+    "video: \u2026ribe is a UK-registered online pharmacy and clinic offering video consultations and prescription treatments for weight loss, hair los\u2026"
+   ],
+   "source": "https://weprescribe.co.uk/product/mounjaro-injections-weight-loss-treatment"
+  },
+  "YourPharmacy": {
+   "steps": [
+    "questionnaire"
+   ],
+   "approval_days": null,
+   "delivery": null,
+   "code": null,
+   "domain": "yourpharmacy.uk",
+   "rating": 4.5,
+   "reviews": 135,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [
+    "questionnaire: \u2026ankmath.com/ --> <title>Mounjaro Weight Loss Injection UK | Online Consultation</title><link rel=\"preload\" as=\"style\" href=\"https://fonts.g\u2026"
+   ],
+   "source": "https://yourpharmacy.uk/mounjaro-weight-loss-injection"
+  },
+  "Zava": {
+   "steps": [],
+   "approval_days": null,
+   "delivery": null,
+   "code": null,
+   "domain": "zavamed.com",
+   "rating": 2.8,
+   "reviews": 5,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [],
+   "source": "https://www.zavamed.com/uk/mounjaro.html"
+  },
+  "YourDose": {
+   "steps": [],
+   "approval_days": 4,
+   "delivery": null,
+   "code": null,
+   "domain": "yourdosepharmacy.co.uk",
+   "rating": 4.7,
+   "reviews": 39,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [],
+   "source": "https://yourdosepharmacy.co.uk/shop/mounjaro-weight-loss"
+  },
+  "Oxford Online Pharmacy": {
+   "steps": [
+    "questionnaire"
+   ],
+   "approval_days": null,
+   "delivery": null,
+   "code": "WL15",
+   "domain": "https://www.oxfordonlinepharmacy.co.uk/weight-loss/mounjaro",
+   "rating": null,
+   "reviews": null,
+   "rating_source": null,
+   "evidence": [
+    "questionnaire: \u2026v> <p class=\"font-serif text-navy text-xl mb-1\">Online consultation</p> <div class=\"font-sans text-body-m text-navy\">Co\u2026",
+    "researched: consultation required; no explicit photo or video requirement found"
+   ],
+   "source": "https://www.oxfordonlinepharmacy.co.uk/weight-loss/mounjaro"
+  },
+  "Cloud Pharmacy": {
+   "steps": [
+    "questionnaire"
+   ],
+   "approval_days": null,
+   "delivery": "Next-day delivery",
+   "code": null,
+   "domain": "https://www.cloudpharmacy.co.uk/online-doctor/weight-loss-treatments/mounjaro-weight-loss-injection/",
+   "rating": null,
+   "reviews": null,
+   "rating_source": null,
+   "evidence": [
+    "questionnaire: \u2026ry as a guide \u2014 your eligibility is confirmed during a free online consultation with our prescribing pharmacist.\u2026",
+    "researched: short assessment required before treatment recommendation"
+   ],
+   "source": "https://www.cloudpharmacy.co.uk/online-doctor/weight-loss-treatments/mounjaro-weight-loss-injection"
+  },
+  "Cured Pharmacy": {
+   "steps": [
+    "questionnaire",
+    "photo"
+   ],
+   "approval_days": null,
+   "delivery": "Delivery included",
+   "code": "\u00a320 off first order",
+   "domain": "curedpharmacy.com",
+   "rating": 3.5,
+   "reviews": 988,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [
+    "questionnaire: \u2026=1786096747&amp;width=1200\" alt=\"Woman using Cured Pharmacy online consultation for weight loss treatment\" loading=\"lazy\"> </div> <div clas\u2026",
+    "photo: \u2026hare a picture\",\"reviewer_media_introduction_picture_text\":\"Upload a photo to support your review.\",\"reviewer_media_screen_title_video\u2026"
+   ],
+   "source": "https://curedpharmacy.com/pages/cheapest-mounjaro-uk"
+  },
+  "EverydayMeds": {
+   "steps": [
+    "questionnaire",
+    "id"
+   ],
+   "approval_days": 96,
+   "delivery": "Next-day delivery",
+   "code": "FIRST40",
+   "domain": "everydaymeds.co.uk",
+   "rating": 2.4,
+   "reviews": 909,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [
+    "questionnaire: \u2026ntent=\"Buy Mounjaro tirzepatide pens online in the UK. Free online consultation, discounted prices and next day delivery to your door withi\u2026",
+    "id: \u2026linecap=\"round\" stroke-linejoin=\"round\"></path></svg></span>Photo ID verified</li> </ul>\u2026"
+   ],
+   "source": "https://everydaymeds.co.uk/products/mounjaro-injection",
+   "offer": "\u00a340 off your first order",
+   "code_alt": "DOSE25"
+  },
+  "UK Meds": {
+   "steps": [
+    "questionnaire",
+    "photo"
+   ],
+   "approval_days": 4,
+   "delivery": "Next-day delivery",
+   "code": "20% off your first order",
+   "domain": "https://www.ukmeds.co.uk/mounjaro",
+   "rating": null,
+   "reviews": null,
+   "rating_source": null,
+   "evidence": [
+    "questionnaire: \u2026ProductFullDetail_consultationInfo__EmA8L\">You will need to answer a few questions about your health before completing purchase of this item.<\u2026",
+    "photo: \u2026rdered Mounjara, had to fill my details in a questionnaire, take a photo of myself sent it off , after a doctor reviewed my details,\u2026"
+   ],
+   "source": "https://www.ukmeds.co.uk/mounjaro"
+  },
+  "Pharmacy Planet": {
+   "steps": [
+    "questionnaire",
+    "id",
+    "gp"
+   ],
+   "approval_days": 3,
+   "delivery": "Next-day delivery",
+   "code": "NEW10",
+   "domain": "pharmacyplanet.com",
+   "rating": 4.5,
+   "reviews": 6057,
+   "rating_source": "uk.trustpilot.com",
+   "evidence": [
+    "questionnaire: \u2026egistered pharmacists. All strengths 2.5mg\u201315mg. Start your online consultation today. \"> <meta name=\"keywords\" content=\"Mounjaro For Weigh\u2026",
+    "id: \u2026l class=\"required test\"><em>*</em> Please upload a piece of photo ID for confirmation of your identity (eg passport, license, bi\u2026",
+    "gp: \u2026uidance issued by the manufacturer.&nbsp;</li><li> You will contact your GP/Doctor if you suffer from any unwanted side effects or if y\u2026"
+   ],
+   "source": "https://www.pharmacyplanet.com/mounjaro.html"
+  }
+ }
+}
